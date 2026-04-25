@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Topu Yakalayıcı Oyunu</title>
+  <style>
+    body {
+      margin:0; background:#222; color:#eee; font-family:sans-serif; text-align:center;
+    }
+    #gameCanvas {
+      background: #333;
+      display:block;
+      margin: 20px auto;
+      border-radius: 10px;
+      border: 2px solid #555;
+    }
+    #scoreboard {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Topu Yakalayıcı</h1>
+  <canvas id="gameCanvas" width="500" height="600"></canvas>
+  <div id="scoreboard">Puan: 0 | Can: 3</div>
+
+  <script src="game.js"></script>
+</body>
+</html>
